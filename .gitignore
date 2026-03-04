@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# block binaries for HF
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.bin
+*.onnx
+
+# block images for HF
+*.jpg
+*.jpeg
+*.png
+*.webp
