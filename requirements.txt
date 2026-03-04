@@ -1,0 +1,14 @@
+streamlit
+matplotlib
+scikit-learn
+numpy
+pandas
+scipy
+pillow
+requests
+python-dateutil
+python-dotenv
+torch==2.5.1
+pymongo[srv]
+dnspython
+certifi
