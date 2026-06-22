@@ -2,7 +2,7 @@
 title: Flavorgen Cafe Lab
 emoji: ☕
 colorFrom: yellow
-colorTo: orange
+colorTo: red
 sdk: streamlit
 app_file: streamlit_app.py
 pinned: false
