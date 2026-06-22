@@ -1,0 +1,43 @@
+drink_id,name,type,temperature,sugar_level,caffeine_level,ingredient_ids,tags,popularity_score
+1,Vanilla Iced Latte,coffee,iced,regular,medium,"[1,10,15,36]","['house_favorite','comfort']",0.90
+2,Caramel Cold Brew,coffee,iced,regular,high,"[2,11,16,36]","['house_favorite','energy_boost']",0.88
+3,Hazelnut Almond Latte,coffee,hot,half,medium,"[3,13,17]","['comfort']",0.80
+4,Sugar Free Vanilla Latte,coffee,hot,zero,medium,"[3,10,42]","['low_sugar','light_healthy']",0.82
+5,Pumpkin Spice Oat Latte,coffee,hot,regular,medium,"[3,12,21,23,33]","['comfort','warm_spice','seasonal']",0.87
+6,Gingerbread Oat Latte,coffee,hot,regular,medium,"[3,12,41,23,33]","['comfort','warm_spice','seasonal']",0.85
+7,Sugar Cookie Cold Brew,coffee,iced,regular,high,"[2,43,34,36]","['house_favorite','dessert']",0.89
+8,Peppermint Mocha,coffee,hot,regular,medium,"[3,19,40,10,33]","['dessert','seasonal']",0.83
+9,Matcha Coconut Latte,tea,hot,zero,low,"[26,38,42]","['light_healthy','low_sugar']",0.78
+10,Mango Berry Smoothie,smoothie,blended,regular,none,"[7,27,28,36]","['fruity','refreshing']",0.86
+11,Tropical Green Smoothie,smoothie,blended,half,none,"[7,31,32,27,36]","['fruity','refreshing','light_healthy']",0.84
+12,Strawberry Banana Yogurt Smoothie,smoothie,blended,regular,none,"[7,30,44,36]","['fruity','comfort']",0.83
+13,Passion Tea Lemonade,refresher,iced,regular,none,"[37,47,18,36]","['fruity','refreshing','house_favorite']",0.91
+14,Mango Refresher,refresher,iced,regular,none,"[45,47,36]","['fruity','refreshing']",0.82
+15,Strawberry Refresher,refresher,iced,regular,none,"[46,47,36]","['fruity','refreshing']",0.83
+16,Energy Cold Brew,coffee,iced,half,high,"[2,22,11,36]","['energy_boost']",0.81
+17,Light Iced Green Tea,tea,iced,zero,low,"[5,36]","['light_healthy','refreshing']",0.79
+18,Zero Sugar Passion Lemonade,refresher,iced,zero,none,"[37,47,42,36]","['low_sugar','fruity','refreshing']",0.80
+19,Brown Sugar Oat Shaken Espresso,coffee,iced,regular,high,"[1,12,22,36]","['house_favorite','energy_boost']",0.88
+20,Toasted Pecan Latte,coffee,hot,regular,medium,"[3,10,39,33]","['comfort','dessert']",0.84
+21,Coconut Mocha Macchiato,coffee,hot,regular,medium,"[3,38,19,33]","['dessert','comfort']",0.83
+22,Iced Sugar Cookie Almond Latte,coffee,iced,regular,medium,"[1,13,43,34,36]","['seasonal','dessert']",0.86
+23,Peppermint Cold Foam Cold Brew,coffee,iced,regular,high,"[2,40,34,36]","['seasonal','energy_boost']",0.85
+24,Matcha Lemonade,tea,iced,zero,low,"[26,47,36]","['light_healthy','refreshing']",0.82
+25,Strawberry Matcha Latte,tea,iced,half,low,"[26,44,11,36]","['fruity','comfort']",0.80
+26,Pineapple Coconut Refresher,refresher,iced,regular,none,"[31,38,47,36]","['fruity','refreshing']",0.84
+27,Berry Passion Refresher,refresher,iced,regular,none,"[37,28,29,47,36]","['fruity','refreshing']",0.83
+28,Tropical Coconut Smoothie,smoothie,blended,regular,none,"[7,31,27,38,36]","['fruity','comfort']",0.85
+29,Protein Yogurt Green Smoothie,smoothie,blended,half,none,"[7,31,32,5,36]","['light_healthy','fruity']",0.80
+30,Zero Sugar Iced Vanilla Cold Brew,coffee,iced,zero,high,"[2,42,11,36]","['low_sugar','energy_boost']",0.83
+31,Classic Chai Latte,tea,hot,regular,low,"[6,14,25]","['comfort','warm_spice']",0.81
+32,Iced Chai Oat Latte,tea,iced,regular,low,"[6,12,25,36]","['comfort','refreshing','warm_spice']",0.82
+33,Dirty Chai Oat Shaken Espresso,coffee,iced,regular,high,"[1,6,12,25,36]","['energy_boost','warm_spice']",0.84
+34,Cinnamon Brown Sugar Latte,coffee,hot,regular,medium,"[3,10,22,24]","['comfort','dessert']",0.83
+35,Pumpkin Cream Cold Brew,coffee,iced,regular,high,"[2,21,34,36]","['seasonal','comfort']",0.86
+36,Mocha Cookie Frappe,coffee,blended,regular,medium,"[4,1,19,35,33,36]","['dessert','house_favorite']",0.87
+37,Nutmeg Spice Creme Frappe,frappe,blended,regular,none,"[4,23,24,33,36]","['dessert','warm_spice']",0.80
+38,Kids Hot Chocolate,other,hot,regular,low,"[4,19,10,33]","['comfort','kids']",0.79
+39,White Chocolate Peppermint Mocha,coffee,hot,regular,medium,"[3,20,40,10,33]","['seasonal','dessert']",0.84
+40,Cinnamon Almond Cold Foam Cold Brew,coffee,iced,half,high,"[2,13,24,34,36]","['energy_boost','light_healthy']",0.82
+41,Caramel Pecan Latte,coffee,hot,regular,medium,"[3,10,16,39,33]","['dessert','comfort']",0.85
+42,Strawberry Coconut Refresher,refresher,iced,regular,none,"[46,38,47,36]","['fruity','refreshing']",0.82

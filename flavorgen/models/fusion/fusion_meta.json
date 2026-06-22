@@ -1,0 +1,83 @@
+{
+  "in_dim": 408,
+  "out_dim": 47,
+  "backend": "auto",
+  "created_at": "2026-03-02 01:21:21.714853+00:00",
+  "n_rows": 1818,
+  "n_ingredients": 47,
+  "cat_maps": {
+    "type": [
+      "coffee",
+      "frappe",
+      "other",
+      "refresher",
+      "smoothie",
+      "tea"
+    ],
+    "temperature": [
+      "blended",
+      "hot",
+      "iced"
+    ],
+    "sugar_level": [
+      "half",
+      "regular",
+      "zero"
+    ],
+    "caffeine_level": [
+      "high",
+      "low",
+      "medium",
+      "none"
+    ]
+  },
+  "ingredient_index_to_name": {
+    "0": "espresso shot",
+    "1": "cold brew coffee",
+    "2": "brewed coffee",
+    "3": "creme base",
+    "4": "green tea",
+    "5": "black tea",
+    "6": "yogurt base",
+    "7": "water",
+    "8": "coconut water",
+    "9": "whole milk",
+    "10": "skim milk",
+    "11": "oat milk",
+    "12": "almond milk",
+    "13": "soy milk",
+    "14": "vanilla syrup",
+    "15": "caramel syrup",
+    "16": "hazelnut syrup",
+    "17": "classic simple syrup",
+    "18": "chocolate syrup",
+    "19": "white chocolate syrup",
+    "20": "pumpkin spice syrup",
+    "21": "brown sugar syrup",
+    "22": "nutmeg powder",
+    "23": "cinnamon powder",
+    "24": "chai spice mix",
+    "25": "matcha powder",
+    "26": "mango puree",
+    "27": "strawberry pieces",
+    "28": "blueberry puree",
+    "29": "banana",
+    "30": "pineapple",
+    "31": "peach puree",
+    "32": "whipped cream",
+    "33": "cold foam",
+    "34": "java chips",
+    "35": "ice",
+    "36": "passion tea",
+    "37": "coconut milk",
+    "38": "pecan syrup",
+    "39": "peppermint syrup",
+    "40": "gingerbread syrup",
+    "41": "sugar free syrup",
+    "42": "sugar cookie syrup",
+    "43": "strawberry puree",
+    "44": "mango base",
+    "45": "strawberry base",
+    "46": "lemonade"
+  }
+}

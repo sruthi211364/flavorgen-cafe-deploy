@@ -1,0 +1,26 @@
+# requirements.txt
+# Generated for Flavorgen Café Lab
+# Install with: pip install -r requirements.txt
+
+# ── Web framework ─────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── Data ──────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.26.0
+
+# ── ML / NLP ──────────────────────────────────────────────────
+scikit-learn>=1.4.0
+sentence-transformers>=2.6.0
+torch>=2.2.0
+
+# ── Visualisation ─────────────────────────────────────────────
+matplotlib>=3.8.0
+
+# ── Database ──────────────────────────────────────────────────
+pymongo[srv]>=4.6.0
+python-dotenv>=1.0.0
+dnspython>=2.6.0
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dateutil>=2.8.0

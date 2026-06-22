@@ -1,0 +1,306 @@
+drink_id,name,type,temperature,sugar_level,caffeine_level,ingredient_ids,tags,popularity_score
+1,Vanilla Iced Latte,coffee,iced,regular,medium,"[1,10,15,36]","['house_favorite','comfort']",0.9
+2,Caramel Cold Brew,coffee,iced,regular,high,"[2,11,16,36]","['house_favorite','energy_boost']",0.88
+3,Hazelnut Almond Latte,coffee,hot,half,medium,"[3,13,17]",['comfort'],0.8
+4,Sugar Free Vanilla Latte,coffee,hot,zero,medium,"[3,10,42]","['low_sugar','light_healthy']",0.82
+5,Pumpkin Spice Oat Latte,coffee,hot,regular,medium,"[3,12,21,23,33]","['comfort','warm_spice','seasonal']",0.87
+6,Gingerbread Oat Latte,coffee,hot,regular,medium,"[3,12,41,23,33]","['comfort','warm_spice','seasonal']",0.85
+7,Sugar Cookie Cold Brew,coffee,iced,regular,high,"[2,43,34,36]","['house_favorite','dessert']",0.89
+8,Peppermint Mocha,coffee,hot,regular,medium,"[3,19,40,10,33]","['dessert','seasonal']",0.83
+9,Matcha Coconut Latte,tea,hot,zero,low,"[26,38,42]","['light_healthy','low_sugar']",0.78
+10,Mango Berry Smoothie,smoothie,blended,regular,none,"[7,27,28,36]","['fruity','refreshing']",0.86
+11,Tropical Green Smoothie,smoothie,blended,half,none,"[7,31,32,27,36]","['fruity','refreshing','light_healthy']",0.84
+12,Strawberry Banana Yogurt Smoothie,smoothie,blended,regular,none,"[7,30,44,36]","['fruity','comfort']",0.83
+13,Passion Tea Lemonade,refresher,iced,regular,none,"[37,47,18,36]","['fruity','refreshing','house_favorite']",0.91
+14,Mango Refresher,refresher,iced,regular,none,"[45,47,36]","['fruity','refreshing']",0.82
+15,Strawberry Refresher,refresher,iced,regular,none,"[46,47,36]","['fruity','refreshing']",0.83
+16,Energy Cold Brew,coffee,iced,half,high,"[2,22,11,36]",['energy_boost'],0.81
+17,Light Iced Green Tea,tea,iced,zero,low,"[5,36]","['light_healthy','refreshing']",0.79
+18,Zero Sugar Passion Lemonade,refresher,iced,zero,none,"[37,47,42,36]","['low_sugar','fruity','refreshing']",0.8
+19,Brown Sugar Oat Shaken Espresso,coffee,iced,regular,high,"[1,12,22,36]","['house_favorite','energy_boost']",0.88
+20,Toasted Pecan Latte,coffee,hot,regular,medium,"[3,10,39,33]","['comfort','dessert']",0.84
+21,Coconut Mocha Macchiato,coffee,hot,regular,medium,"[3,38,19,33]","['dessert','comfort']",0.83
+22,Iced Sugar Cookie Almond Latte,coffee,iced,regular,medium,"[1,13,43,34,36]","['seasonal','dessert']",0.86
+23,Peppermint Cold Foam Cold Brew,coffee,iced,regular,high,"[2,40,34,36]","['seasonal','energy_boost']",0.85
+24,Matcha Lemonade,tea,iced,zero,low,"[26,47,36]","['light_healthy','refreshing']",0.82
+25,Strawberry Matcha Latte,tea,iced,half,low,"[26,44,11,36]","['fruity','comfort']",0.8
+26,Pineapple Coconut Refresher,refresher,iced,regular,none,"[31,38,47,36]","['fruity','refreshing']",0.84
+27,Berry Passion Refresher,refresher,iced,regular,none,"[37,28,29,47,36]","['fruity','refreshing']",0.83
+28,Tropical Coconut Smoothie,smoothie,blended,regular,none,"[7,31,27,38,36]","['fruity','comfort']",0.85
+29,Protein Yogurt Green Smoothie,smoothie,blended,half,none,"[7,31,32,5,36]","['light_healthy','fruity']",0.8
+30,Zero Sugar Iced Vanilla Cold Brew,coffee,iced,zero,high,"[2,42,11,36]","['low_sugar','energy_boost']",0.83
+31,Classic Chai Latte,tea,hot,regular,low,"[6,14,25]","['comfort','warm_spice']",0.81
+32,Iced Chai Oat Latte,tea,iced,regular,low,"[6,12,25,36]","['comfort','refreshing','warm_spice']",0.82
+33,Dirty Chai Oat Shaken Espresso,coffee,iced,regular,high,"[1,6,12,25,36]","['energy_boost','warm_spice']",0.84
+34,Cinnamon Brown Sugar Latte,coffee,hot,regular,medium,"[3,10,22,24]","['comfort','dessert']",0.83
+35,Pumpkin Cream Cold Brew,coffee,iced,regular,high,"[2,21,34,36]","['seasonal','comfort']",0.86
+36,Mocha Cookie Frappe,coffee,blended,regular,medium,"[4,1,19,35,33,36]","['dessert','house_favorite']",0.87
+37,Nutmeg Spice Creme Frappe,frappe,blended,regular,none,"[4,23,24,33,36]","['dessert','warm_spice']",0.8
+38,Kids Hot Chocolate,other,hot,regular,low,"[4,19,10,33]","['comfort','kids']",0.79
+39,White Chocolate Peppermint Mocha,coffee,hot,regular,medium,"[3,20,40,10,33]","['seasonal','dessert']",0.84
+40,Cinnamon Almond Cold Foam Cold Brew,coffee,iced,half,high,"[2,13,24,34,36]","['energy_boost','light_healthy']",0.82
+41,Caramel Pecan Latte,coffee,hot,regular,medium,"[3,10,16,39,33]","['dessert','comfort']",0.85
+42,Strawberry Coconut Refresher,refresher,iced,regular,none,"[46,38,47,36]","['fruity','refreshing']",0.82
+43,Brewed Coffee,coffee,hot,regular,high,"[10, 36]",['coffee'],0.75
+44,Brewed Coffee,coffee,hot,regular,high,"[10, 36]",['coffee'],0.75
+45,Brewed Coffee,coffee,hot,regular,high,"[10, 36]",['coffee'],0.75
+46,Brewed Coffee,coffee,hot,regular,high,"[10, 36]",['coffee'],0.75
+47,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+48,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+49,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+50,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+51,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+52,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+53,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+54,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+55,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+56,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+57,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+58,Caffè Latte,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+59,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+60,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+61,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+62,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+63,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+64,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+65,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+66,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+67,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+68,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+69,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+70,Caffè Mocha (Without Whipped Cream),coffee,hot,regular,high,"[10, 19, 36]","['coffee', 'dessert']",0.75
+71,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+72,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+73,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+74,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+75,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+76,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+77,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+78,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+79,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+80,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+81,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+82,Vanilla Latte (Or Other Flavoured Latte),coffee,hot,regular,medium,"[1, 10, 15, 36]",['coffee'],0.75
+83,Caffè Americano,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+84,Caffè Americano,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+85,Caffè Americano,coffee,hot,regular,high,"[1, 10, 36]",['coffee'],0.75
+86,Caffè Americano,coffee,hot,regular,high,"[1, 10, 36]",['coffee'],0.75
+87,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+88,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+89,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+90,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+91,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+92,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+93,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+94,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+95,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+96,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+97,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+98,Cappuccino,coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+99,Espresso,coffee,hot,regular,medium,"[1, 10, 36]","['coffee', 'energy_boost']",0.75
+100,Espresso,coffee,hot,regular,medium,"[1, 10, 36]","['coffee', 'energy_boost']",0.75
+101,Skinny Latte (Any Flavour),coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+102,Skinny Latte (Any Flavour),coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+103,Skinny Latte (Any Flavour),coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+104,Skinny Latte (Any Flavour),coffee,hot,regular,medium,"[1, 10, 36]",['coffee'],0.75
+105,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+106,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+107,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+108,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+109,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+110,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+111,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+112,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+113,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+114,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+115,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+116,Caramel Macchiato,coffee,hot,regular,medium,"[1, 10, 16, 36]",['coffee'],0.75
+117,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+118,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+119,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+120,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+121,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+122,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+123,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+124,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+125,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+126,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+127,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+128,White Chocolate Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 20, 36]","['coffee', 'dessert']",0.75
+129,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+130,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+131,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+132,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+133,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+134,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+135,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+136,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+137,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+138,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+139,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+140,Hot Chocolate (Without Whipped Cream),other,hot,regular,low,"[10, 19, 36]",['dessert'],0.75
+141,Caramel Apple Spice (Without Whipped Cream),other,hot,regular,none,"[10, 16, 25, 36]",['dessert'],0.75
+142,Caramel Apple Spice (Without Whipped Cream),other,hot,regular,none,"[10, 16, 25, 36]",['dessert'],0.75
+143,Caramel Apple Spice (Without Whipped Cream),other,hot,regular,none,"[10, 16, 25, 36]",['dessert'],0.75
+144,Caramel Apple Spice (Without Whipped Cream),other,hot,regular,none,"[10, 16, 25, 36]",['dessert'],0.75
+145,Tazo® Tea,tea,hot,regular,medium,"[6, 10, 36]",['tea'],0.75
+146,Tazo® Tea,tea,hot,regular,medium,"[6, 10, 36]",['tea'],0.75
+147,Tazo® Tea,tea,hot,regular,medium,"[6, 10, 36]",['tea'],0.75
+148,Tazo® Tea,tea,hot,regular,medium,"[6, 10, 36]",['tea'],0.75
+149,Tazo® Chai Tea Latte,tea,hot,regular,low,"[1, 10, 25, 36]",['tea'],0.75
+150,Tazo® Chai Tea Latte,tea,hot,regular,low,"[1, 10, 25, 36]",['tea'],0.75
+151,Tazo® Chai Tea Latte,tea,hot,regular,low,"[1, 10, 25, 36]",['tea'],0.75
+152,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+153,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+154,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+155,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+156,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+157,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+158,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+159,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+160,Tazo® Chai Tea Latte,tea,hot,regular,medium,"[1, 10, 25, 36]",['tea'],0.75
+161,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+162,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+163,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+164,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+165,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+166,Tazo® Green Tea Latte,tea,hot,regular,low,"[1, 10, 36]",['tea'],0.75
+167,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+168,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+169,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+170,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+171,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+172,Tazo® Green Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+173,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+174,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+175,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+176,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+177,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+178,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+179,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+180,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+181,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+182,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+183,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+184,Tazo® Full-Leaf Tea Latte,tea,hot,regular,medium,"[1, 10, 36]",['tea'],0.75
+185,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+186,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+187,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+188,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+189,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+190,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+191,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+192,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+193,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+194,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+195,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+196,Tazo® Full-Leaf Red Tea Latte (Vanilla Rooibos),tea,hot,regular,none,"[1, 10, 15, 36]",['tea'],0.75
+197,Iced Brewed Coffee (With Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+198,Iced Brewed Coffee (With Classic Syrup),coffee,iced,regular,high,"[10, 36]",['coffee'],0.75
+199,Iced Brewed Coffee (With Classic Syrup),coffee,iced,regular,high,"[10, 36]",['coffee'],0.75
+200,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+201,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+202,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+203,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+204,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+205,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+206,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,medium,"[10, 36]",['coffee'],0.75
+207,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,high,"[10, 36]",['coffee'],0.75
+208,Iced Brewed Coffee (With Milk & Classic Syrup),coffee,iced,regular,high,"[10, 36]",['coffee'],0.75
+209,Shaken Iced Tazo® Tea (With Classic Syrup),smoothie,iced,regular,high,"[6, 10, 36]",['smoothie'],0.75
+210,Shaken Iced Tazo® Tea (With Classic Syrup),smoothie,iced,regular,medium,"[6, 10, 36]",['smoothie'],0.75
+211,Shaken Iced Tazo® Tea (With Classic Syrup),smoothie,iced,regular,medium,"[6, 10, 36]",['smoothie'],0.75
+212,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),smoothie,iced,regular,medium,"[6, 10, 47, 36]",['smoothie'],0.75
+213,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),smoothie,iced,regular,medium,"[6, 10, 47, 36]",['smoothie'],0.75
+214,Shaken Iced Tazo® Tea Lemonade (With Classic Syrup),smoothie,iced,regular,medium,"[6, 10, 47, 36]",['smoothie'],0.75
+215,Banana Chocolate Smoothie,smoothie,hot,regular,medium,"[10, 19, 36]",['smoothie'],0.75
+216,Banana Chocolate Smoothie,smoothie,hot,regular,low,"[10, 19, 36]",['smoothie'],0.75
+217,Banana Chocolate Smoothie,smoothie,hot,regular,low,"[10, 19, 36]",['smoothie'],0.75
+218,Orange Mango Banana Smoothie,smoothie,hot,regular,low,"[10, 27, 36]",['smoothie'],0.75
+219,Orange Mango Banana Smoothie,smoothie,hot,regular,none,"[10, 27, 36]",['smoothie'],0.75
+220,Orange Mango Banana Smoothie,smoothie,hot,regular,none,"[10, 27, 36]",['smoothie'],0.75
+221,Strawberry Banana Smoothie,smoothie,hot,regular,none,"[10, 44, 36]",['smoothie'],0.75
+222,Strawberry Banana Smoothie,smoothie,hot,regular,none,"[10, 44, 36]",['smoothie'],0.75
+223,Strawberry Banana Smoothie,smoothie,hot,regular,none,"[10, 44, 36]",['smoothie'],0.75
+224,Coffee,coffee,hot,regular,none,"[10, 36]",['coffee'],0.75
+225,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+226,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+227,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+228,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+229,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+230,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+231,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+232,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+233,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+234,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+235,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+236,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+237,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+238,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+239,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+240,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+241,Mocha (Without Whipped Cream),coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+242,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+243,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+244,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+245,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+246,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+247,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+248,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+249,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+250,Caramel (Without Whipped Cream),other,hot,regular,medium,"[10, 16, 36]",['dessert'],0.75
+251,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+252,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+253,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+254,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+255,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+256,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+257,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+258,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+259,Java Chip (Without Whipped Cream),other,hot,regular,medium,"[10, 36]",['dessert'],0.75
+260,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+261,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+262,Coffee,coffee,hot,regular,medium,"[10, 36]",['coffee'],0.75
+263,Mocha,coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+264,Mocha,coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+265,Mocha,coffee,hot,regular,medium,"[10, 19, 36]","['coffee', 'dessert']",0.75
+266,Caramel,other,hot,regular,medium,"[10, 16, 36]",['menu_item'],0.75
+267,Caramel,other,hot,regular,medium,"[10, 16, 36]",['menu_item'],0.75
+268,Caramel,other,hot,regular,medium,"[10, 16, 36]",['menu_item'],0.75
+269,Java Chip,other,hot,regular,medium,"[10, 36]",['menu_item'],0.75
+270,Java Chip,other,hot,regular,medium,"[10, 36]",['menu_item'],0.75
+271,Java Chip,other,hot,regular,high,"[10, 36]",['menu_item'],0.75
+272,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+273,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+274,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+275,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+276,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+277,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+278,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+279,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+280,Strawberries & Crème (Without Whipped Cream),other,hot,regular,none,"[10, 36]",['dessert'],0.75
+281,Vanilla Bean (Without Whipped Cream),other,hot,regular,none,"[10, 15, 36]",['dessert'],0.75
+282,Vanilla Bean (Without Whipped Cream),other,hot,regular,none,"[10, 15, 36]",['dessert'],0.75
+283,Vanilla Bean (Without Whipped Cream),other,hot,regular,none,"[10, 15, 36]",['dessert'],0.75
+284,Vanilla Bean (Without Whipped Cream),other,hot,regular,none,"[10, 15, 36]",['dessert'],0.75
+285,Hot White Chocolate Mocha,coffee,hot,regular,medium,"[3,4,18,33]","['comfort','dessert']",0.88
+286,Iced White Chocolate Mocha,coffee,iced,regular,medium,"[1,4,18,36]","['dessert','house_favorite']",0.86
+287,Toasted Pistachio Latte,coffee,hot,half,medium,"[3,13,21,33]","['comfort','nutty','seasonal']",0.84
+288,Caramel Brulee Latte,coffee,hot,regular,medium,"[3,11,21,33,24]","['dessert','seasonal','warm_spice']",0.85
+289,Chai Oat Latte,tea,hot,half,low,"[25,12,21,33]","['comfort','warm_spice','light_healthy']",0.82
+290,Iced Brown Sugar Oat Shaken Espresso,coffee,iced,half,high,"[1,12,22,36]","['energy_boost','house_favorite']",0.89
+291,Strawberry Matcha Latte,tea,iced,regular,low,"[26,44,10,36]","['fruity','comfort']",0.83
+292,Mango Coconut Refresher,refresher,iced,regular,none,"[45,38,47,36]","['fruity','refreshing']",0.87
+293,Mocha Cookie Crumble Frappe,frappe,blended,regular,high,"[1,4,19,20,29,36]","['dessert','house_favorite']",0.90
+294,Vanilla Bean Pistachio Frappe,frappe,blended,regular,low,"[4,10,13,29,36]","['dessert','nutty']",0.83
+295,Toasted White Chocolate Cold Brew,coffee,iced,regular,high,"[2,4,20,22,36]","['dessert','house_favorite']",0.89
+296,Hot White Chocolate Strawberry Mocha,coffee,hot,regular,medium,"[3,20,44,33]","['dessert','fruity','comfort']",0.86
+297,Iced White Chocolate Strawberry Mocha,coffee,iced,regular,medium,"[1,20,44,36,33]","['dessert','fruity','refreshing']",0.85
+298,White Chocolate Matcha Latte,tea,hot,half,low,"[26,20,10,33]","['comfort','light_healthy']",0.82
+299,Iced White Chocolate Coconut Latte,coffee,iced,regular,medium,"[1,20,38,36]","['dessert','refreshing']",0.84
+300,Peppermint White Chocolate Mocha,coffee,hot,regular,medium,"[3,20,40,33]","['dessert','seasonal','warm_spice']",0.87
+301,Gingerbread White Chocolate Latte,coffee,hot,regular,medium,"[3,20,41,21,33]","['dessert','seasonal','warm_spice','comfort']",0.88
+302,White Chocolate Strawberry Creme Frappe,frappe,blended,regular,low,"[4,20,44,29,36]","['dessert','fruity','house_favorite']",0.9
+303,White Chocolate Berry Yogurt Smoothie,smoothie,blended,regular,none,"[7,20,28,29,36]","['dessert','fruity','comfort']",0.83
+
+    

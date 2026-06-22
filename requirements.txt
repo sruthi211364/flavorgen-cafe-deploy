@@ -1,0 +1,15 @@
+streamlit
+matplotlib
+scikit-learn
+numpy
+pandas
+scipy
+pillow
+requests
+python-dateutil
+python-dotenv
+pymongo[srv]
+dnspython
+certifi
+
+# CPU only build 

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -e
+
+echo "Running postBuild: training Fusion artifacts if missing..."
+
+# Always run from repo root
+cd "$(dirname "$0")"
+
+# If artifacts already exist, skip
+if [ -f "models/fusion/fusion_model.pt" ] || [ -f "models/fusion/model.pt" ] || [ -f "models/fusion/artifacts.json" ]; then
+  echo "Fusion artifacts found. Skipping training."
+  exit 0
+fi
+
+mkdir -p models/fusion
+
+# Train
+python train_fusion.py
+
+echo "postBuild complete."
+ls -la models/fusion || true
