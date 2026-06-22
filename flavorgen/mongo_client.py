@@ -194,4 +194,13 @@ def db_load_all_generated_drinks(limit: int = 50) -> List[dict]:
 # ════════════════════════════════════════════════════════════
 def db_load_drinks() -> List[dict]:
     try:
-        return list(get_db()["dri
+        return list(get_db()["drinks"].find({}, {"_id": 0}))
+    except (PyMongoError, RuntimeError):
+        return []
+
+
+def db_load_ingredients() -> List[dict]:
+    try:
+        return list(get_db()["ingredients"].find({}, {"_id": 0}))
+    except (PyMongoError, RuntimeError):
+        return []
