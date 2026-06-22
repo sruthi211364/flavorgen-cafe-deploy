@@ -11,5 +11,4 @@ python-dotenv
 pymongo[srv]
 dnspython
 certifi
-
-# CPU only build 
+torch
