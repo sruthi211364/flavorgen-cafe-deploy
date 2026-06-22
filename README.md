@@ -10,7 +10,7 @@ pinned: false
 # FlavorGen Café Lab — Hybrid AI Beverage Intelligence System
 
 **Lakshmi Sruthi Anchula** · Applied Machine Learning Engineer · Full-Stack AI Systems Builder  
-[LinkedIn](https://your-linkedin-link) · [GitHub](https://your-github-link) · [Live Demo on Hugging Face](https://your-hf-link)
+[LinkedIn](https://your-linkedin-link) · [GitHub](https://your-github-link) · [Live Demo on Hugging Face]([(https://huggingface.co/spaces/sus211364/flavgen)])
 
 ---
 
